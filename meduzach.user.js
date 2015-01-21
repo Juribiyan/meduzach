@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Meduzach
-// @version      0.2
+// @version      0.2.1
 // @description  Disqus comments for Meduza.io
 // @author       Juribiyan
 // @match        https://meduza.io/*
