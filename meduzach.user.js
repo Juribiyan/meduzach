@@ -40,9 +40,7 @@ function putComments() {
 	/* Add a wrapper for comments */
 	var thread = document.createElement('div');
 	thread.id = 'disqus_thread';
-	// document.getElementsByClassName('PopupBody')[0].appendChild(thread);
 	insertAfter(thread, document.getElementsByClassName('PopupBody')[0]);
-	// document.getElementsByClassName('PopupBody')[0].insertAdjacentHTML('afterend', thread);
 
 	/* Load Disqus */
 	if(pristine) {
