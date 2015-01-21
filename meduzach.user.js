@@ -3,7 +3,7 @@
 // @version      0.2
 // @description  Disqus comments for Meduza.io
 // @author       Juribiyan
-// @match        meduza.io/*
+// @match        https://meduza.io/*
 // @grant        none
 // ==/UserScript==
 
