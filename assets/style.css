@@ -1,0 +1,57 @@
+html { 
+	background-color: #040B11;
+	background: url(meduza-bg.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+body {
+	text-align: center;
+	font-family: "Trebuchet MS",Trebuchet,Ubuntu,Roboto,sans-serif;
+	color: #FFF;
+	text-shadow: 0 0 51px #00335F;
+}
+#content {
+	max-width: 960px;
+	margin: 0px auto;
+}
+h1 {
+	font-size: 60px;
+	text-shadow: 0 0 51px #00335F;
+}
+.subtitle {
+	margin-top: -25px;
+	display: block;
+	font-size: 21px;
+	font-style: italic;
+}
+.a-btn {
+	margin: 20px;
+	display: inline-block;
+	min-width: 250px;
+	height: 50px;
+	font-size: 20px;
+	vertical-align: middle;
+	line-height: 50px;
+	color: #FFF;
+	text-decoration: none;
+	border: 1px solid rgba(255, 255, 255, 0.59);
+	box-shadow: 0 0 20px rgba(0, 51, 95, 0.31), inset 0 0 20px rgba(0, 51, 95, 0.31);
+	-webkit-transition-property: background-color, color, box-shadow, border-color, text-shadow;
+	-o-transition-property: background-color, color, box-shadow, border-color, text-shadow;
+	transition-property: background-color, color, box-shadow, border-color, text-shadow;
+	-webkit-transition-duration: 0.25s;
+	-o-transition-duration: 0.25s;
+	transition-duration: 0.25s;
+}
+.a-btn:hover {
+	box-shadow: 0 0 40px rgba(0, 51, 95, 0.4), inset 0 0 40px rgba(0, 51, 95, 0.4);
+	border-color: #fff;
+}
+.a-btn:active {
+	background: rgba(255, 255, 255, 0.98);
+	color: #00335F;
+	box-shadow: 0 0 44px rgba(0, 51, 95, 0.45);
+	text-shadow: none;
+}
